@@ -1,5 +1,6 @@
 ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 cipher_text = 'UHUURBLFR'  # Replace this with your encrypted message
+#Hard way to decrypt
 
 def caesar_decrypt(cipher_text, key):
     plain_text = ''

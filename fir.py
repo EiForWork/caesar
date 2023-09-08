@@ -18,7 +18,7 @@ def caesar_decrypt(cipher_text):
         plain_text = plain_text + ALPHABET[index]
     return plain_text
 
-m = 'I love you Na'
+m = 'odeng'
 encrypted = caesar_encrypt(m)
 print(encrypted,"This message is has encrypted")
 print(caesar_decrypt(encrypted), "Already has Decrypted")
